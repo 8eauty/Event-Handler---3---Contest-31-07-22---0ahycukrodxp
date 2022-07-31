@@ -3,7 +3,7 @@ import '../styles/App.css';
 const App = () => {
 
   consthandleInput = (event) =>{
-console.log(event.traget.value)
+console.log(event.target.value)
   }
 
   // do not change id of input elements
