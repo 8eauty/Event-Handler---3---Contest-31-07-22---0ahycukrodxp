@@ -3,6 +3,7 @@ import '../styles/App.css';
 const App = () => {
 
   consthandleInput = (event) =>{
+    event.preventDefault()
 console.log(event.target.value)
   }
 
