@@ -4,7 +4,7 @@ import '../styles/App.css';
 
 const App = () => {
 
-  consthandleInput = (event) =>{
+  const handleInput = (event) =>{
     
 console.log(event.target.value)
   }
